@@ -1,0 +1,20 @@
+publicar localhost para ser usado desde afuera
+
+https://octocat.dev/posts/dev-tunnels-with-command-line
+
+se debe generar un token de acceso para poder usarlo en Postman
+
+devtunnel user login -d -g # device login with github
+devtunnel list # get tunnels list
+devtunnel token <tunnel-id> --scopes connect # create token
+
+para inspeccionar los llamados en el navegador https://URL-inspect.use.devtunnels.ms/
+EJEMPLO 
+https://hr539lm3-80-inspect.use.devtunnels.ms/
+
+
+Token tunnel ID: sneaky-hill-334693m.use
+Token scope: connect
+Token lifetime: 1.00:00:00
+Token expiration: 2024-07-24 21:57:28 UTC
+Token: eyJhbGciOiJFUzI1NiIsImtpZCI6IkI5Mjg5QzBFRDIyMUJENjhBNTA3MjA3MzY4MEI1MjFDRDVGRTEyQzIiLCJ0eXAiOiJKV1QifQ.eyJjbHVzdGVySWQiOiJ1c2UiLCJ0dW5uZWxJZCI6InNuZWFreS1oaWxsLTMzNDY5M20iLCJzY3AiOiJjb25uZWN0IiwiZXhwIjoxNzIxODU4MjQ4LCJpc3MiOiJodHRwczovL3R1bm5lbHMuYXBpLnZpc3VhbHN0dWRpby5jb20vIiwibmJmIjoxNzIxNzcwOTQ4fQ.khzyck8Uv4q9Kjef_ltDBDGMIJv_HmPAdET9JIePxyy8NKcQmxqKkfNHE-2qMP23PtrW-eloaLKm9R0Lbonzcg
