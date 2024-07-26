@@ -1,11 +1,14 @@
 publicar localhost para ser usado desde afuera
 
 Descargar devtunnel.exe
+https://aka.ms/TunnelsCliDownload/win-x64
+
 https://octocat.dev/posts/dev-tunnels-with-command-line
 
 se debe generar un token de acceso para poder usarlo en Postman
 
 devtunnel user login -d -g # device login with github
+devtunnel host -p 3000  # abrir tunel para el puerto 3000
 devtunnel list # get tunnels list
 devtunnel token <tunnel-id> --scopes connect # create token
 
