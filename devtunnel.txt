@@ -1,5 +1,6 @@
 publicar localhost para ser usado desde afuera
 
+Descargar devtunnel.exe
 https://octocat.dev/posts/dev-tunnels-with-command-line
 
 se debe generar un token de acceso para poder usarlo en Postman
